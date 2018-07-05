@@ -41,7 +41,7 @@ p {
 	transition: all 1s;
 }
 
-.my-button:focus {
+#my-button:focus {
 	box-shadow: 0 0 0 .2rem black;
 	background-color: #670E0E;
 }
