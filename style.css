@@ -1,0 +1,47 @@
+body {
+	background-image: url("https://i.ytimg.com/vi/IdTMDpizis8/maxresdefault.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+header {
+	margin: 150px 0px 30px 0px;
+	font-family: "Parisienne", cursive;
+
+}
+.quote {
+	font-size: 5rem;
+}
+
+.author {
+	font-size: 3rem;
+}
+
+p {
+	font-size: 2rem;
+	background-color: rgba(16, 16, 16, .8);
+}
+
+.btn {
+	font-weight: 700;
+	font-family: "Arial";
+	text-transform: uppercase;
+	border-radius: 1000px;
+}
+.btn-primary {
+	background-color: #3E2020;
+	border-width: 0px;
+}
+
+.btn-primary:hover {
+	background-color: #670E0E;
+	cursor: pointer;
+	transform: scale(1.2);
+	transition: all 1s;
+}
+
+.my-button:focus {
+	box-shadow: 0 0 0 .2rem black;
+	background-color: #670E0E;
+}
